@@ -25,6 +25,7 @@ namespace EFRepository
         public void Save()
         {
             context.SaveChanges();
+            context.SaveChanges();
         }
 
         private bool _disposed = false;
